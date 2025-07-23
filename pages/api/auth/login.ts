@@ -109,6 +109,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     });
 
   } catch (error: any) {
-    return createErrorResponse(error, 500).json();
+    const errorResponse = createErrorResponse(error, 500);
+    return res.status(errorResponse.status).json(errorResponse.json);
   }
 }
