@@ -34,7 +34,7 @@ export default function ApiDocs() {
         <div className="container mx-auto px-4">
           <h1 className="text-3xl font-bold">OrderFlow API Documentation</h1>
           <p className="mt-2 text-blue-100">
-            Documentation complète de l'API OrderFlow - SaaS de gestion des commandes
+            Documentation complète de l&apos;API OrderFlow - SaaS de gestion des commandes
           </p>
         </div>
       </div>
