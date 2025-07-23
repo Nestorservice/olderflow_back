@@ -15,8 +15,8 @@ const options = {
     },
     servers: [
       {
-        url: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000',
-        description: 'Serveur de développement'
+        url: process.env.NEXT_PUBLIC_API_URL || 'https://olderflow-back-3eq4.vercel.app/',
+        description: 'Serveur de production'
       }
     ],
     components: {
