@@ -11,6 +11,8 @@ const nextConfig = {
         'utf-8-validate': false,
       };
     }
+    // Configurer l'alias @ pour pointer vers la racine du projet
+    config.resolve.alias['@'] = require('path').resolve(__dirname);
     return config;
   },
 };
