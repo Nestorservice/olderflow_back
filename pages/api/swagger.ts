@@ -1,5 +1,6 @@
+
 import { NextApiRequest, NextApiResponse } from 'next';
-import openapiSpec from '@/public/openapi.json';
+import openapiSpec from '../../public/openapi.json';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   // Ajouter les en-têtes CORS manuellement
